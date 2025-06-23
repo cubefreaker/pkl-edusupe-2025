@@ -1,1 +1,2 @@
-# KENDY FOLDER
+# KENDY FOLDER 
+# Asal Sekolah: SMKN 1 JENANGAN
