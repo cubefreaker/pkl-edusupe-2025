@@ -28,3 +28,6 @@ mempelajari Web Dasar HTML :
 3. Rabu,25 Juni 2025
 mempelajari Web Dasar HTML :
 - Latihan 4.
+4. Kamis, 26 Juni 2025
+mempelajari :
+- 
