@@ -12,3 +12,13 @@
 - Line Break & Horizontal Rule
 - Extra Tag
 - Latihan HTML
+
+2. Selasa, 23 Juni 2025
+Mempelajari Web Dasar HTML :
+- List
+- Link & Multipage
+- HTML Attribute
+- Tabel
+- Form
+- Latihan HTML 2
+- Gambar / Images
