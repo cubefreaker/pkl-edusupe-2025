@@ -1,8 +1,11 @@
 # CITRA FOLDER
+
 # SMK NEGERI 1 JENANGAN PONOROGO
-1. Senin, 23 Juni 2025 
-mempelajari Web Dasar HTML :
-- Penggunaan Git, 
+
+1. Senin, 23 Juni 2025
+   mempelajari Web Dasar HTML :
+
+- Penggunaan Git,
 - Git hub,
 - Pengertian HTML,
 - Instalasi dan Persiapan,
@@ -13,8 +16,10 @@ mempelajari Web Dasar HTML :
 - Strong, Emphasis, Blockquote dan Quote,
 - Extra Tag,
 - Latihan 1 HTML.
+
 2. Selasa,24 Juni 2025
-mempelajari Web Dasar HTML :
+   mempelajari Web Dasar HTML :
+
 - List,
 - Link dan Multi Page,
 - HTML Attributes,
@@ -25,9 +30,19 @@ mempelajari Web Dasar HTML :
 - Video,
 - Suara dan Musik,
 - Latihan 3.
+
 3. Rabu,25 Juni 2025
-mempelajari Web Dasar HTML :
+   mempelajari Web Dasar HTML :
+
 - Latihan 4.
+
 4. Kamis, 26 Juni 2025
-mempelajari :
-- 
+   mempelajari :
+
+- Latihan HTML membuat CV profil diri (File bernama profil.html)
+
+5. Senin, 30 Juni 2025
+   mempelajari :
+
+- Web Dasar CSS (Apa itu CSS, Inline CSS, Internal CSS, Eksternal CSS, CSS Selector),
+- Latihan 1 CSS.
