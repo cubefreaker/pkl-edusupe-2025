@@ -46,3 +46,10 @@
 
 - Web Dasar CSS (Apa itu CSS, Inline CSS, Internal CSS, Eksternal CSS, CSS Selector),
 - Latihan 1 CSS.
+
+6. Selasa, 01 Juli 2025
+   mempelajari :
+
+- Web dasar CSS (Inheritance, color, text, shadow, border, margin dls)
+- Latihan 2 CSS
+- Latihan 3 CSS

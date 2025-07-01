@@ -1,0 +1,32 @@
+* {
+    font-family: Helvetica;
+}
+
+/* aturan terakhir */
+i {
+    color:goldenrod
+}
+
+i {
+    color:red; /* yang diambil ini */
+}
+
+/* specific */
+
+b {
+    color:brown !important; /* level 3 */
+}
+
+p b {
+    color:crimson; /* level 2 */
+}
+
+/* studi kasus */
+
+p {
+    font-size: 100%;
+}
+
+p#pendahuluan {
+    font-size: 75%; /* lebih specific */
+} 

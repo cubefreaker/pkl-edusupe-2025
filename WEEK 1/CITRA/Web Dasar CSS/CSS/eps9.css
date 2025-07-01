@@ -1,0 +1,39 @@
+/* color */
+
+/* foreground color */
+
+/* color name */
+
+h1 {
+    color:dodgerblue;
+}
+
+/* hex code */
+
+h2 {
+    color:#c22961;
+}
+
+/* rgb value */
+
+p {
+    color:rgb(44, 100, 196);
+}
+
+/* background color */
+
+body {
+    background-color: #efefef;
+}
+
+h1 {
+    background-color: rgb(108, 235, 203);
+}
+
+h2 {
+    background-color: bisque;
+}
+
+p {
+    background-color: rgb(250, 155, 233);
+}
