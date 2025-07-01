@@ -1,0 +1,59 @@
+/* cascade */
+
+*{
+   font-family:tahoma;
+}
+
+h1{
+   font-family:times;
+}
+
+h3{
+   font-family: arial;
+}
+
+h3 span{
+   font-family: arial;
+}
+
+/* merubah span  */
+/* child selector */
+h3>span{
+   color:crimson;
+}
+span{
+   color:blue;
+}
+
+/* inheritance */
+/* span dama heading */
+h3{
+   font-size:12px;  /* span puna akan berubah*/
+   padding:10px;
+}
+
+h3>span{
+   padding-left:inherit;
+   padding-right:inherit;
+}
+
+/* color */
+h2{
+   background-color: black;
+   color:beige;
+   padding:10px;
+}
+
+h3{
+   background-color: rgba(100,25,0,0.2);
+}
+
+h1{
+   background-color: #ffd6ee;
+   padding:10px;
+   text-align:center;
+}
+
+body{
+   background-color: azure;
+}
