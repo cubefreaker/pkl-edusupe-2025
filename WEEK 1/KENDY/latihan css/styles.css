@@ -1,0 +1,47 @@
+/* Universal SElector*/
+* {
+  font-family: tahoma;
+}
+
+/* type selector*/
+h1 {
+  font-size: 30px;
+}
+
+/* Class Selector */
+.artikel {
+  font-size: 20px;
+}
+
+.credit {
+  font-size: 12px;
+}
+
+.penulis {
+  color: rebeccapurple;
+}
+
+.tanggal {
+  color: blueviolet;
+}
+
+/* id selector */
+#artikel-1 { /*untuk memanggil id yang di index*/
+  color: blue;
+}
+
+/*child selector*/
+p > span {
+  color: gray;
+}
+
+/*first child*/
+h3 + p {
+  color: darkblue;
+  font-size: 14px;
+}
+
+/*all child*/
+h1 ~ p {
+  text-align: justify;
+}
