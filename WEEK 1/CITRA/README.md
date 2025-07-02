@@ -53,3 +53,10 @@
 - Web dasar CSS (Inheritance, color, text, shadow, border, margin dls)
 - Latihan 2 CSS
 - Latihan 3 CSS
+
+7. Rabu, 02 Juli 2025
+   mempelajari :
+   - Web Dasar CSS (Display Element, lists style, forms, image style dls)
+   - Latihan 4 CSS
+   - Latihan 5 CSS
+   - Menyelesaikan Studi Kasus Final part 1, 2, 3.
