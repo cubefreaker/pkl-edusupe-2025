@@ -1,0 +1,90 @@
+.box1{
+    height: 100px;
+    width: 300px;
+    background-color: lightgrey;
+}
+.box2{
+    height: 200px;
+    width: 400px;
+    background-color: lightblue;
+}
+.box1 p{
+    height: 75%;
+    width: 75%;
+    background-color: bisque;
+}
+.box2 h2{
+    width: 50%;
+    background-color: bisque;
+}
+.box2 p{
+    width: 50%;
+    background-color: lightcyan;
+}
+
+/*ukuran max dan min dari box*/
+td{
+    background-color: lightgrey;
+}
+td.deskripsi{
+    min-width: 450px;
+    max-width: 500px;
+    background-color: beige;
+}
+
+/*overflow*/
+h2,h3{
+    font-family: Arial;
+    color: brown;
+}
+p.satu{
+    height: 100px;
+    width: 200px;
+    overflow: hidden;
+}
+p.dua{
+    height: 100px;
+    width: 200px;
+    overflow: scroll;
+}
+
+/*border, padding, margin*/
+div.box4{
+    width:fit-content;
+    height: fit-content;
+   font-size: 30px; 
+   background-color: aquamarine;
+   /*margin*/
+   margin-top:100px;
+   margin-bottom:100px;
+   margin-left:100px;
+   /*padding*/
+   padding-top: 10px;
+   padding-left: 10px;
+   padding-right:10px ;
+   padding-bottom: 10px;
+   /*border*/
+   border:4px solid black;
+
+}
+p.hello b{
+    font-family: Arial;
+    font-weight: bold;
+    background-color: black;
+    color:antiquewhite;
+    border: 4px solid palegoldenrod;
+}
+p.hello{
+    background-color: antiquewhite;
+    width: fit-content;
+    /*padding*/
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    /*margin*/
+    margin-top: 10px;
+    margin-bottom: 0px;
+    /*border*/
+    border:4px solid pink;
+}

@@ -1,0 +1,59 @@
+.box1 {
+    height: 100px;
+    width: 200px;
+    background-color: #bbbbaa;
+}
+
+.box1 p {
+    height: 90%;
+    width: 90%;
+    background-color: #0088dd;
+}
+
+.box2 {
+    height: 200px;
+    width: 400px;
+    background-color: aqua;
+}
+
+.box2 h2 {
+    width: 25%;
+    background-color: bisque;
+}
+
+.box2 p {
+    width: 75%;
+    background-color: coral;
+}
+
+/* ukuran minimum  dan maksimum dari box */
+
+td {
+    background-color: cadetblue;
+}
+
+td.deskripsi {
+    min-width: 450px;
+    max-width: 500px;
+    background-color: orange
+}
+
+/* overflow */
+
+h2,
+h3 {
+    font-family: Arial;
+    color: dodgerblue;
+}
+
+p.satu {
+    height: 100px;
+    width: 200px;
+    overflow: hidden;
+}
+
+p.dua {
+    height: 100px;
+    height: 200px;
+    overflow: scroll;
+}
