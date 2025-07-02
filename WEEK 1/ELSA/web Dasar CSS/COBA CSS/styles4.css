@@ -1,0 +1,34 @@
+body {
+    background-color: #efefef;
+    color: #efefef;
+}
+
+#artikel {
+    border: 1px solid #2e2b2b;
+    background-color: #efefef;
+    padding: 20px;
+}
+
+h1 {
+    background-color: rgb(255, 0, 199);
+    padding: 10px;
+}
+
+h2 {
+    background-color: rgba(255, 0, 199, 0.5);
+    padding: 10px;
+}
+
+/* hue - 0 sampai 360 */
+/* saturasi - 0% sampai 100% */
+/* lightness - 0% sampai 100% */
+p.paragraf1 {
+    background-color: hsl(150, 50%, 25%);
+    padding: 10px;
+}
+
+/* alpha - 0 sampai 1 */
+p.paragraf2 {
+    background-color: hsla(150, 50%, 25%, 0.5);
+    padding: 10px;
+}
