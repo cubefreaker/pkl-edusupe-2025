@@ -1,0 +1,58 @@
+.box1 {
+    height: 155px;
+    width: 330px;
+    background-color: #bbbbaa;
+}
+
+.box1 p{
+    height: 45%;
+    width: 85%;
+    background-color: #0088dd;
+}
+
+.box2 {
+    height: 200px;
+    width: 500px;
+    background-color:rgb(75, 181, 153);
+}
+
+.box2 h2 {
+    width: 25%;
+    background-color: #717955;
+}
+
+.box2 p {
+    width: 70%;
+    background-color: brown;
+}
+
+/* ukuran minimum dan maksimum dari box */
+
+td {
+    background-color:rgb(230, 230, 109);
+}
+
+td.deskripsi {
+    min-width: 500px;
+    max-width: 550px;
+    background-color: rgb(244, 91, 36);
+}
+
+/* overflow */
+
+h2,h3{
+    font-family: 'Times New Roman';
+    color: aquamarine;
+}
+
+p.satu{
+    height: 100px;
+    width: 200px;
+    overflow: hidden;
+}
+
+p.dua{
+    height: 100px;
+    width: 200px;
+    overflow: scroll;
+}
