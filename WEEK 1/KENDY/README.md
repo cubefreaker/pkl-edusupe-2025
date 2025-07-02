@@ -21,4 +21,22 @@
  - html attribute
  - tabel
  - form
- - dan latihan 
+ - dan latihan 2
+
+ 3. Rabu, 25 Juni 2025
+ - mempelajari:
+ - gambar/image 
+ - video
+ - suara/musik
+ - dan latihan 3 & 4
+
+ 4. Kamis, 26 Juni 2025
+ mempelajari:
+ - latihan HTML membuat cv profil diri
+ 
+ 5. Jumat, 27 Juni 2025
+ - Libur
+
+ 6. Senin, 30 Juni 2025
+ -  Web dasar CSS (apa itu CSS, inline CSS, internal CSS, eksternal CSS, CSS selector)
+ - latihan 1 CSS
