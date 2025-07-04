@@ -1,0 +1,48 @@
+input{
+    font-size: 120%;
+    color: darkslategray;
+    background-color: #efefef;
+    border: 1px solid #bdbdbd;
+    border-radius: 5px;
+    padding: 5px 5px 5px 30px;
+    display: block;
+    margin-bottom: 10px;
+
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-position: 8px;
+}
+
+input:focus{
+    background-color: #ffffff;
+}
+
+input#email{
+    background-image: url("../FormsStyle/images/emailfto.png");
+}
+
+input#instagram{
+    background-image: url("../FormsStyle/images/ig.png");
+}
+
+input#web{
+    background-image: url("../FormsStyle/images/web.png");
+}
+
+input#submit{
+    color: #efefef;
+    text-shadow: 1px 1px 5px #ffffff;
+    background-color: blue;
+    padding: 5px 10px 5px 10px;
+}
+
+input#submit:hover{
+    color: chocolate;
+    background-color: indigo;
+    cursor: pointer;
+}
+
+input#submit:active{
+    color: lawngreen;
+    background-color: lightcoral;
+}
