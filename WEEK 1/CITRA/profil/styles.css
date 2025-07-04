@@ -1,0 +1,90 @@
+*{
+    font-family:'Segoe UI'; 
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    gap: 20px;
+}
+
+body {
+  background-color: #ccc;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  margin: 0;
+}
+
+.a4-wrapper {
+  width: 794px;       
+  height: 1023px;           
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  border-radius: 8px;
+  overflow: hidden; /*menyembunyikan konten yg keluar batas elemen*/
+  padding: 30px;
+}
+
+.konten{
+    background-color: rgb(241, 238, 234);
+    height: 100%;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.kiri{
+    width:470px;
+    background-color: rgb(3, 19, 45);
+    color: aliceblue;
+    font-size: 11px;
+    border-radius: 7px;
+    padding: 15px;
+}
+
+.lingkaran {
+    display: block;
+    margin: 10px auto;
+    width: 160px;      
+    height: 160px;
+    object-fit: cover;  /* Potong gambar agar tidak melar */
+    border-radius: 50%; /* Buat lingkaran agar foto tidak kotak */
+}
+
+.tabel{
+    margin-top: 105px;
+}
+
+.kanan{
+    margin-left: 25px;
+    padding-right: 10px;
+}
+
+p.name{
+    font-family:sans-serif;
+    letter-spacing: 3px; 
+    word-spacing: 10px;
+    font-size: 15px;
+    padding-bottom: 11px;
+}
+
+h3.subjudul{
+    padding-top: 55px;
+}
+
+.judul {
+  font-size: 40px;
+  margin: 0;
+}
+
+hr {
+  margin-bottom: 10px;
+}
+
+ul {
+  padding-left: 18px;
+}
+
+li {
+  margin-bottom: 5px;
+}
