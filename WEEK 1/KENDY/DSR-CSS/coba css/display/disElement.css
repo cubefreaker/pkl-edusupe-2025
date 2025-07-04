@@ -1,0 +1,43 @@
+* {
+  font-family: tahoma;
+}
+
+span {
+  background-color: rgba(255, 200, 0, 0.5);
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  padding: 10px;
+  border: 1px solid;
+}
+
+/*inline*/
+span.inline {
+  display: inline;
+}
+
+/*block*/
+span.block {
+  display: block; /*akan membuat baris baru diabawahnya (bo1,bo2)*/
+}
+
+/*inline-box*/
+span.inline-block {
+  display: inline-block; /* bentuk inline-block akann menyesuaikan ukuran layar */
+}
+
+/*flex-container*/
+.flex-container {
+  background-color: antiquewhite;
+  display: flex;
+  height: 250px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.flex-item {
+  background-color: burlywood;
+  display: flex;
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+}
