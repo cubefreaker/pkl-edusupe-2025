@@ -56,7 +56,13 @@
 
 7. Rabu, 02 Juli 2025
    mempelajari :
+
    - Web Dasar CSS (Display Element, lists style, forms, image style dls)
    - Latihan 4 CSS
    - Latihan 5 CSS
    - Menyelesaikan Studi Kasus Final part 1, 2, 3.
+
+8. Kamis, 03 Juli 2025
+   mempelajarari :
+
+- Perubahan pada file CV / profil.html kemarin dengan menambahkan file css agar lebih cantik, rapi dan menarik.
