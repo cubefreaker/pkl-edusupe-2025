@@ -1,0 +1,27 @@
+body{
+    font-family: Verdana;
+    color: darkgreen;
+}
+
+table{
+    width: 600px;
+    border-collapse: collapse; /*garis dalam kolom nempel*/
+}
+
+th,td{
+    padding: 7px 10px 10px 10px;
+}
+
+th{
+    border-top: 1px solid brown;
+    border-bottom: 2px solid burlywood;
+    text-align: left;
+    font-size: 80%;
+}
+
+tr.genap{
+    background-color: rgb(188, 215, 237);
+}
+tr:hover{
+    background-color: rgb(114, 165, 210);
+}

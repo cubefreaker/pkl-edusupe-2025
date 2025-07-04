@@ -1,0 +1,150 @@
+*{
+    font-family: Arial;
+}
+
+/*header*/
+.header{
+    display: flex;
+    background-color: rgb(185, 225, 247);
+    padding: 10px;
+}
+
+.header-logo{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.header-logo img{
+    height: 100px;
+}
+
+.header-title{
+    margin-top: auto;
+    margin-bottom: auto;
+    
+}
+
+.header-title a{
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+    color: black;
+}
+
+/*navbar*/
+.nav{
+    background-color: black;
+    padding: 10px;
+    margin-top: 0px;
+}
+
+.nav-item{
+    display: inline;
+    margin-left: 20px;
+    height: 20px;
+}
+
+.nav-item a{
+    color: white;
+    text-decoration:none;
+}
+
+.nav-item:hover{
+    background-color: gray;
+}
+
+/*KONTEN*/
+.konten{
+    width: 80%;
+    margin:auto;
+}
+
+.konten h1{
+    color: rgb(113, 140, 230);
+    font-size: 35px;
+}
+
+.konten h2{
+    font-size: 22px;
+    color: rgb(54, 87, 195);
+}
+
+/*tabel*/
+.tabel {
+    border-spacing: 4px;
+}
+
+.tabel-header{
+    background-color: lightblue;
+}
+
+.tabel-header th {
+    padding: 10px;
+}
+
+.tabel-konten{
+    background-color: lightskyblue;
+}
+
+.tabel-genap{
+    background-color: lightblue;
+}
+
+.tabel-konten td{
+    padding: 10px;
+}
+
+td>img{
+    width: 100px;
+}
+
+.tabel-konten:hover{
+    background-color: aliceblue;
+}
+
+/*form*/
+.form-grup{
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+.form-grup label{
+    display: block;
+    font-size: 20px;
+    color: rgb(120, 169, 255);
+}
+
+.form-grup input{
+    display: block;
+    margin-top: 10px;
+    width: 60%;
+    border-color: black;
+    border-style: dotted;
+    
+}
+
+.form-grup textarea{
+    display: block;
+    margin-top: 10px;
+    height: 200px;
+    width: 60%;
+    border-color: black;
+    border-style: dotted;
+}
+
+.btn{
+    width: 150px;
+    height: 50px;
+    font-size:20px;
+    font-weight: bold;
+    color: whitesmoke;
+    background-color: rgb(120, 169, 255);
+    border: 0px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: rgb(55, 104, 190);
+}
