@@ -1,0 +1,136 @@
+/* Gaya Umum */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f6f8;
+  padding: 20px;
+  margin: 0;
+  color: #333;
+  background: radial-gradient(circle, lightsteelblue, white); /* Gradasi diagonal */
+}
+
+
+/* Container Utama */
+.cv {
+  max-width: 700px;
+  margin: auto;
+  background-color: #fff;
+  padding: 40px;
+  height: max-content;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+  border-radius: 12px;
+}
+
+span{
+  color: #1e88e5;
+  font-style: italic;
+  font-weight: 17 px;
+}
+
+span.jurusan{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: gray;
+}
+
+/* Header Foto + Info */
+.header {
+  display: flex;
+  align-items: flex-start;
+  background-color: lightsteelblue;
+  border-radius: 40px;
+  gap: 30px;
+  margin-bottom: 30px;
+}
+
+.header img {
+  width: 190px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0 6px 12px rgba(21, 69, 111, 0.855);
+}
+
+.info h1 {
+  font-family: Georgia;
+  font-size: xx-large;
+  font-weight: normal;
+  text-align: center;
+  color: darkblue;
+  text-shadow: 10px 5px 5px rgb(82, 82, 201);
+  word-spacing: 0.5em;
+  letter-spacing: 0.1em;
+}
+
+.info p {
+  font-size: 16px;
+  line-height: 1.6;
+  margin: 0;
+}
+
+/* Judul Section */
+h2 {
+  font-size: 22px;
+  color: #0d47a1;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  border-bottom: 2px solid #1e88e5;
+  padding-bottom: 6px;
+}
+
+/* Kontak */
+p img {
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+
+/* List */
+/* Gaya dasar untuk daftar utama */
+ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Gaya untuk item utama */
+ul > li {
+  padding: 8px 0;
+  font-size: 16px;
+  color: #333;
+  position: relative;
+  padding-left: 24px;
+}
+
+/* Tambahkan ikon bulat untuk item utama */
+ul > li::before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  color: #1e88e5;
+  font-size: 20px;
+  line-height: 1;
+}
+
+/* Gaya untuk sub-list */
+ul ul {
+  margin-left: 20px;
+  padding-left: 0;
+}
+
+/* Gaya untuk item sub-list */
+ul ul li {
+  padding: 4px 0;
+  font-size: 15px;
+  color: #555;
+  position: relative;
+  padding-left: 20px;
+}
+
+/* Tambahkan bullet strip untuk sub-item */
+ul ul li::before {
+  content: "–";
+  position: absolute;
+  left: 0;
+  color: #1e88e5;
+  font-weight: bold;
+}

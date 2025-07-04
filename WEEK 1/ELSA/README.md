@@ -33,7 +33,14 @@ Mempelajari Web Dasar HTML :
 Mempelajari Web Dasar HTML :
 - Latihan HTML membuat CV profil diri (File bernama profil.html)
 
-5. Senin, 30 Juni 2025
+5. Jum'at, 27 Juni 2025
+- LIBUR
+
+6. Senin, 30 Juni 2025
 Mempelajari :
 - Web Dasar CSS (Apa itu CSS, inline CSS, internal CSS, eksternal CSS, CSS selector)
 - Latihan 1
+
+7. Selasa, 01 Juli 2025
+Mempelajari :
+- Web Dasar CSS (Aturan Cascade, Inheritance, Color, Color Alpha, )

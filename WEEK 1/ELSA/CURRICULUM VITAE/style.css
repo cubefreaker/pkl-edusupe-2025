@@ -1,0 +1,98 @@
+ body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  background: pink;
+  padding: 30px;
+  color: #2c3e50;
+}
+
+h5 {
+    font-family: Georgia;
+    font-size: large;
+    font-weight: normal;
+    text-transform: uppercase;
+    text-align: center;
+    color: rgb(240, 112, 112);
+    text-shadow: 5px 5px 5px rgb(231, 97, 97);
+    word-spacing: 0.5em;
+    letter-spacing: 6px;
+}
+
+.card {
+  max-width: 850px;
+  margin: auto;
+  background: white;
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
+
+.profile {
+  display: block;
+  margin: auto;
+  height: 120px;
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(71, 160, 151, 0.3);
+}
+
+h1 {
+  text-align: center;
+  font-size: 28px;
+  margin-top: 15px;
+}
+
+.title {
+  text-align: center;
+  font-size: 14px;
+  color: #607d8b;
+  margin-bottom: 20px;
+}
+
+hr {
+  border: none;
+  border-top: 2px solid #eb9c9c;
+  margin: 20px 0;
+}
+
+
+h2 {
+  font-size: 20px;
+  color: black;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+h3 {
+  font-size: 16px;
+  margin-top: 15px;
+  color: darksalmon;
+}
+
+p, li, td {
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+td {
+  padding: 4px 8px;
+  vertical-align: top;
+}
+
+.icon {
+  height: 24px;
+  vertical-align: middle;
+}
+
+.icon-2 {
+  height: 18px;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
