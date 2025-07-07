@@ -1,0 +1,10 @@
+p{
+    background-color: rgb(167, 95, 235);
+}
+
+.posisi-relative{
+    position: relative;
+    left: 30px;
+    top: 40px;
+    background-color: antiquewhite;
+}

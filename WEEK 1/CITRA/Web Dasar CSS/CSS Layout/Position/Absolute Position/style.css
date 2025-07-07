@@ -1,0 +1,10 @@
+p {
+    background-color: rgb(51, 175, 161);
+}
+
+.posisi-absolute{
+    position: absolute;
+    top: 200px;
+    left: 50px;
+    background-color: rgb(249, 235, 148);
+}

@@ -63,6 +63,20 @@
    - Menyelesaikan Studi Kasus Final part 1, 2, 3.
 
 8. Kamis, 03 Juli 2025
-   mempelajarari :
+   mempelajari :
 
 - Perubahan pada file CV / profil.html kemarin dengan menambahkan file css agar lebih cantik, rapi dan menarik.
+
+9. Jum'at, 04 Juli 2025
+   mempelajari :
+
+- CSS Layout (pendahuluan position, Relative Position, Absolute Position)
+
+10. Senin, 07 Juli 2025
+    mempelajari :
+
+- CSS Layout (Jenis Position, float, z-index)
+- Mengerjakan latihan Multi Kolom
+- CSS Layout (Pendahuluan Layout, fixed width, liquid, grid)
+- Responsive Layout (Intro dan Viewport, Gird View, Media Queries)
+- Mengerjakan latihan Mobile Responsive Layout
