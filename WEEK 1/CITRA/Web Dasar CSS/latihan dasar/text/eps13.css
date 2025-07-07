@@ -1,11 +1,11 @@
 h1 {
     font-family:'Courier New';
     font-size:xx-large;
-    font-weight:normal;
-    text-transform: uppercase;
+    font-weight:normal; /* ketebalan biasa*/
+    text-transform: uppercase; /* semua huruf kapital*/
     text-align: center;
     color: brown;
-    text-shadow: 10px 5px 5px black;
+    text-shadow: 10px 5px 5px black; /* efek bayangan hitam ke kanan bawah */
     word-spacing: 0.5em;
     letter-spacing: 5px;
 }
@@ -15,32 +15,35 @@ h1 {
     font-size: 13px;
     font-weight: bold;
     font-style: italic;
-    text-decoration: underline;
-    text-transform: capitalize; 
+    text-decoration: underline; /* garis bawah */
+    text-transform: capitalize; /* huruf pertama kapital*/
     text-align: center;
 }
 
 .tautan {
     font-family: Cambria;
     font-size: 90%;
-    text-decoration: none;
-    text-transform: lowercase;
+    text-decoration: none; /* menghilangkan garis bawah link */
+    text-transform: lowercase; /* semua huruf kecil */
 }
 
+/* saat kusor diarahkan link warna teks berubah */
 a.tautan:hover{
     color:deepskyblue;
 }
 
+/* saat link diklik berubah warna */
 a.tautan:active {
     color: darkcyan;
 }
 
+/* penanda link sudah dikunjungi */
 a.tautan:visited {
     color:burlywood;
 }
 
 p.intro {
     font-family:'Courier New';
-    font: size 1.2em;
-    text-align: justify;
+    font-size: 1.2em; /* ukuran lbh besar dari standar */
+    text-align: justify; /* rata kiri-kanan membuat p rapi*/
 }
