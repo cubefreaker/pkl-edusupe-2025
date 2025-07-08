@@ -1,0 +1,12 @@
+p{
+    position: relative;
+    top: 100px;
+    background-color: bisque;
+}
+
+.posisi-relative{
+    position: relative;
+    left: 50px; /*tulisan akan bersgeser 50px*/
+    top: 50px;
+    background-color: coral;
+}

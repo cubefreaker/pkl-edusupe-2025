@@ -1,0 +1,18 @@
+body{
+    font-family: Arial;
+}
+
+.header{
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    background-color: aliceblue;
+    z-index:1;
+}
+
+.container{
+    position: relative;
+    top: 100px;
+    z-index:2;
+}
