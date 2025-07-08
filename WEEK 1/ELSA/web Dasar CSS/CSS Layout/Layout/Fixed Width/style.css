@@ -1,0 +1,48 @@
+body{
+    width: 960px;
+    margin: 0 auto;
+    font-family: Arial;
+}
+
+
+#header h1{
+    text-align: center;
+}
+
+#nav, #hightlight, #footer{
+    text-align: center;
+    padding: 10px;
+    background-color: #f3e4e4;
+    margin: 10px;
+}
+
+#nav li{
+    display: inline;
+    padding: 5px;
+}
+
+#hightlight img{
+    width: 15%;
+}
+
+.artikel{
+    float: left;
+    background-color: #f3e4e4;
+    width: 280px;
+    height: 200px;
+    margin: 10px;
+    padding: 10px;
+}
+
+#content{
+    height: 100%;
+    overflow: auto;
+}
+
+.column2{
+    background-color: rgb(223, 238, 251);
+}
+
+.column3, .column1{
+    background-color: blanchedalmond;
+}
