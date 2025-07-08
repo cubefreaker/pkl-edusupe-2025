@@ -1,0 +1,25 @@
+*{
+    font-family:Tahoma ;
+    box-sizing: border-box;
+}
+
+h2{
+    background-color: bisque;
+    
+}
+
+.judul-1{
+    position: sticky;
+    top: 0px;
+    padding: 5px;
+    height: 40px;
+}
+
+.judul-2{
+    position: sticky;
+    top: 45px;
+}
+.judul-3{
+    position: sticky;
+    bottom: 0px;
+}

@@ -44,3 +44,6 @@ Mempelajari :
 7. Selasa, 01 Juli 2025
 Mempelajari :
 - Web Dasar CSS (Aturan Cascade, Inheritance, Color, Color Alpha, )
+- latihan
+
+8. Rabu, 02 Juli 2025
