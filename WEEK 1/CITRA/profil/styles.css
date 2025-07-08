@@ -1,18 +1,18 @@
 *{
     font-family:'Segoe UI'; 
-    box-sizing: border-box;
+    box-sizing: border-box; /* l & t elemen sudah termasuk padding & border*/
 }
 
 .container{
-    display: flex;
-    gap: 20px;
+    display: flex; /*elemen horizontal */
+    gap: 20px; /*jarak antar kolom*/
 }
 
 body {
   background-color: #ccc;
   display: flex;
   justify-content: center;
-  padding: 20px;
+  padding: 50px; /*jarak tepi browser-konten*/
   margin: 0;
 }
 
@@ -37,14 +37,14 @@ body {
     width:470px;
     background-color: rgb(3, 19, 45);
     color: aliceblue;
-    font-size: 11px;
+    font-size: 14px;
     border-radius: 7px;
     padding: 15px;
 }
 
 .lingkaran {
     display: block;
-    margin: 10px auto;
+    margin: 10px auto; 
     width: 160px;      
     height: 160px;
     object-fit: cover;  /* Potong gambar agar tidak melar */
@@ -62,10 +62,10 @@ body {
 
 p.name{
     font-family:sans-serif;
-    letter-spacing: 3px; 
-    word-spacing: 10px;
+    letter-spacing: 3px; /* jarak antar huruf*/
+    word-spacing: 10px; /* jarak antar kata*/
     font-size: 15px;
-    padding-bottom: 11px;
+    padding-bottom: 11px; /* ruang bawah paragraf */
 }
 
 h3.subjudul{
