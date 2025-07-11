@@ -41,20 +41,23 @@
 
 - Latihan HTML membuat CV profil diri (File bernama profil.html)
 
-5. Senin, 30 Juni 2025
+5. Jum'at, 27 Juni 2025
+   LIBUR (Tahun Baru Islam).
+
+6. Senin, 30 Juni 2025
    mempelajari :
 
 - Web Dasar CSS (Apa itu CSS, Inline CSS, Internal CSS, Eksternal CSS, CSS Selector),
 - Latihan 1 CSS.
 
-6. Selasa, 01 Juli 2025
+7. Selasa, 01 Juli 2025
    mempelajari :
 
 - Web dasar CSS (Inheritance, color, text, shadow, border, margin dls)
 - Latihan 2 CSS
 - Latihan 3 CSS
 
-7. Rabu, 02 Juli 2025
+8. Rabu, 02 Juli 2025
    mempelajari :
 
    - Web Dasar CSS (Display Element, lists style, forms, image style dls)
@@ -62,17 +65,17 @@
    - Latihan 5 CSS
    - Menyelesaikan Studi Kasus Final part 1, 2, 3.
 
-8. Kamis, 03 Juli 2025
+9. Kamis, 03 Juli 2025
    mempelajari :
 
 - Perubahan pada file CV / profil.html kemarin dengan menambahkan file css agar lebih cantik, rapi dan menarik.
 
-9. Jum'at, 04 Juli 2025
-   mempelajari :
+10. Jum'at, 04 Juli 2025
+    mempelajari :
 
 - CSS Layout (pendahuluan position, Relative Position, Absolute Position)
 
-10. Senin, 07 Juli 2025
+11. Senin, 07 Juli 2025
     mempelajari :
 
 - CSS Layout (Jenis Position, float, z-index)
@@ -81,20 +84,24 @@
 - Responsive Layout (Intro dan Viewport, Gird View, Media Queries)
 - Mengerjakan latihan Mobile Responsive Layout
 
-11. Selasa, 08 Juli 2025
+12. Selasa, 08 Juli 2025
     mempelajari :
 
 - Belajar Javascript Dasar (Pengertian Javascript, instalasi dan VSCode, menjalankan Program, Variabel, tipe data, string, operasi string)
 - Mengerjakan latihan 1 ( String dan Variable dengan DOM )
 
-12. Rabu, 09 Juli 2025
+13. Rabu, 09 Juli 2025
     mempelajari :
 
 - Belajar Javascript Dasar ( Tipe data number, Boolean, NaN & Undefined, Operasi Aritmatika, Operasi Logika)
 - Mengerjakan Latihan 2 ( Tipe Data )
 
-13. Kamis, 10 Juli 2025
+14. Kamis, 10 Juli 2025
     mempelajari :
 
 - Belajar Javascript Dasar ( Operasi Komparasi, IF Statement/Percabangan )
 - Mengerjakan latihan Operator
+
+15. Jum'at, 11 Juli 2025
+    mempelajari :
+    - Menambahkan button yang berisi tautan menuju nomor WhatsApp saya pada file profil2.html atau file CV yang kemarin.
