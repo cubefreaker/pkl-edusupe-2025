@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Profil Lanarizha</title>
   <link rel="stylesheet" href="profil.css">
+  
 </head>
 <body>
   <div class="cv">
@@ -30,6 +31,18 @@
       <img src="telpon.png" height="35" width="35" alt="Telepon Icon" style="vertical-align: middle;">
       085776602241
     </p>
+
+    <div class="button-wa">
+    <a href="#" id="wa-button">Hubungi kami</a>
+      <script>
+        let waButton = document.getElementById('wa-button');
+        let phoneNumber = '+6285776602241';
+        let message = 'Halo, saya ingin bertanya tentang mu.';
+
+        waButton.href = `https://wa.me/${+6285776602241}?text=${encodeURIComponent(message)}`;
+        waButton.target = '_blank';
+      </script>
+    </div>
 
     <h2>🎓 Pendidikan</h2>
     <ul>
