@@ -96,3 +96,18 @@ td {
   vertical-align: middle;
 }
 
+.whatsapp-button{
+  display: inline-block;
+  background-color: #25D366;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.whatsapp-button:hover{
+  background-color: #1DA851;
+}
