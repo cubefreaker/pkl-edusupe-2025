@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <title>CV Maya Ayu Setyawati</title>
   <link rel="stylesheet" href="profil.css">
+
 </head>
 <body>
   <div class="cv-container">
@@ -41,10 +42,6 @@
         <strong>Alamat:</strong> Desa Purwosari, Kecamatan Babadan, Kabupaten Ponorogo
       </li>
       <li>
-        <img src="../PROFILMAYA/icon4.png" alt="Icon Telepon" class="icon">
-        <strong>No. Telepon:</strong> 0895-4013-32329
-      </li>
-      <li>
         <img src="../PROFILMAYA/icon0.png" alt="Icon Email" class="icon">
         <strong>Email:</strong> mayaas8550@gmail.com
       </li>
@@ -80,6 +77,22 @@
         <li>Login & Register Buku</li>
       </ul>
     </section>
+    
+    <h2>Hubungi Saya</h2>
+
+    <button class="wa-button" onclick="kirimWA()">
+    <img src="../PROFILMAYA/icon7.png" alt="WhatsApp">Hubungi WhatsApp Saya</button>
+
+  <script>
+    function kirimWA() {
+      let nomor = '62895401332329'; // Ganti dengan nomor tujuan
+      let pesan = 'Halo, saya ingin bertanya tentang produk Anda.';
+      let url = 'https://wa.me/' + nomor + '?text=' + encodeURIComponent(pesan);
+      window.open(url, '_blank'); // Buka di tab baru
+    }
+  </script>
+    
+
   </div>
 </body>
 </html>
