@@ -80,3 +80,21 @@
 - CSS Layout (Pendahuluan Layout, fixed width, liquid, grid)
 - Responsive Layout (Intro dan Viewport, Gird View, Media Queries)
 - Mengerjakan latihan Mobile Responsive Layout
+
+11. Selasa, 08 Juli 2025
+    mempelajari :
+
+- Belajar Javascript Dasar (Pengertian Javascript, instalasi dan VSCode, menjalankan Program, Variabel, tipe data, string, operasi string)
+- Mengerjakan latihan 1 ( String dan Variable dengan DOM )
+
+12. Rabu, 09 Juli 2025
+    mempelajari :
+
+- Belajar Javascript Dasar ( Tipe data number, Boolean, NaN & Undefined, Operasi Aritmatika, Operasi Logika)
+- Mengerjakan Latihan 2 ( Tipe Data )
+
+13. Kamis, 10 Juli 2025
+    mempelajari :
+
+- Belajar Javascript Dasar ( Operasi Komparasi, IF Statement/Percabangan )
+- Mengerjakan latihan Operator
