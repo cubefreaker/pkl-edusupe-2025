@@ -39,7 +39,7 @@ body {
     color: aliceblue;
     font-size: 14px;
     border-radius: 7px;
-    padding: 15px;
+    padding: 10px;
 }
 
 .lingkaran {
@@ -52,7 +52,7 @@ body {
 }
 
 .tabel{
-    margin-top: 105px;
+    margin-top: 40px;
 }
 
 .kanan{
@@ -69,7 +69,7 @@ p.name{
 }
 
 h3.subjudul{
-    padding-top: 55px;
+    padding-top: 15px;
 }
 
 .judul {
@@ -87,4 +87,21 @@ ul {
 
 li {
   margin-bottom: 5px;
+}
+
+.wa-button {
+  display: inline-block;
+  background-color: #5ea7cb;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 25px;
+  font-weight: bold;
+  font-family: Tahoma;
+  transition: background-color 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.wa-button:hover {
+  background-color: #184d64;
 }
