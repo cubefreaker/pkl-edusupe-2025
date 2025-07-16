@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style type="text/tailwindcss">
+        .grid-item {
+          @apply h-40 border-2 border-gray-400 flex justify-center items-center bg-gray-100 
+          rounded-md;
+        }
+    </style>
+  </head>
+  <body>
+    <div class="bg-purple-950 border-violet-500 border-b-2 ">
+      <div class="sm:flex justify-between container mx-auto py-5 items-start">
+    <h1 class="text-base font-bold text-white text-center">TailwindCSS</h1>
+    <ul class="flex text-white space-x-10 justify-center mt-5 sm:mt-0">
+      <li><a href=''>About</a></li>
+      <li><a href=''>Portopolio</a></li>
+      <li>Menu 3</li>
+      <li>Menu 4</li>
+      <li>Menu 5</li>
+    </ul>
+  </div>
+    </div>
+
+    <div class="w-2/4 mx-auto my-5 border-2 border-gray-200 min-h-20 min-w-96 p-5 bg-gray-100
+    rounded-xl">
+    <h3 class="text-3xl text-center mb-3">Halo</h3>
+    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex non sit eveniet eos, deleniti dignissimos! Id, amet qui eligendi tempore natus illo cumque, aliquam at molestias, 
+    tempora animi ducimus sequi! 
+    </div>
+
+
+    <h3 class="text-3xl text-center mb-3">Portofolio</h3>
+    <div class="w-4/6 my-5 mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 text-5xl">
+     <div class="grid-item">01</div>
+     <div class="grid-item">02</div>
+     <div class="grid-item">03</div>
+     <div class="grid-item">04</div>
+     <div class="grid-item">05</div>
+     <div class="grid-item">06</div>
+    </div>
+  </body>
+</html>
+
