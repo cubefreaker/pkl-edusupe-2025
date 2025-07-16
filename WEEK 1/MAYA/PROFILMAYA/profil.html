@@ -3,20 +3,29 @@
 <head>
   <meta charset="UTF-8">
   <title>CV Maya Ayu Setyawati</title>
-  <link rel="stylesheet" href="profil.css">
-
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    @keyframes gradienBerubah {
+      0% { background-position: 0% 50%; }
+      50% { background-position: 100% 50%; }
+      100% { background-position: 0% 50%; }
+    }
+  </style>  
 </head>
-<body>
-  <div class="cv-container">
-    <header>
-      <img src="../PROFILMAYA/icon00.jpg" alt="Foto Profil" class="profile-img">
-      <h1>Maya Ayu Setyawati</h1>
-      <p class="subtitle">Siswa SMK JURUSAN RPL</p>
+<body class="font-medium bg-gradient-to-r from-blue-400 via-pink-400 to-purple-500 bg-[length:400%_400%] animate-[gradienBerubah_10s_ease_infinite]">
+  <div class="max-w-4xl mx-auto p-6 bg-pink-200 shadow-lg rounded-lg mt-10">
+    <header class="flex flex-col items-center text-center gap-6 mb-8 bg-[url('../PROFILMAYA/bgprofil.jpg')] bg-cover bg-center p-6 rounded-lg shadow-md">
+      <img src="../PROFILMAYA/icon00.jpg" 
+      alt="Foto Profil" 
+      class="w-36 h-40 mx-auto rounded-full border-4 border-white" />
+      <h1 class="text-3xl font-bold text-white">Maya Ayu Setyawati</h1>
+      <p class="text-lg text-white mt-2">Siswa SMK JURUSAN RPL</p>
     </header>
 
-    <section class="section">
-      <h2>Tentang Saya</h2>
-      <p>Saya merupakan siswa SMK jurusan Rekayasa Perangkat Lunak (RPL) yang memiliki ketertarikan dan antusiasme tinggi terhadap dunia pengembangan perangkat lunak serta teknologi informasi,Seiring dengan pembelajaran di sekolah,
+    <section class="mb-6">
+      <hr class="border-t border-blue-500 w-25 mx-auto my-6">
+      <h2 class="text-xl font-semibold mb-6">Tentang Saya</h2>
+      <p class="text-justify leading-relaxed">Saya merupakan siswa SMK jurusan Rekayasa Perangkat Lunak (RPL) yang memiliki ketertarikan dan antusiasme tinggi terhadap dunia pengembangan perangkat lunak serta teknologi informasi,Seiring dengan pembelajaran di sekolah,
         saya terus mengembangkan kemampuan teknis dan logika pemrograman saya melalui berbagai proyek kecil maupun tugas
         praktik. Untuk memperdalam pengalaman dan wawasan di dunia kerja, saya bermaksud melaksanakan
         Praktik Kerja Lapangan (PKL) di CV Edusupe yang berlokasi di Madiun, Jawa Timur. <br>
@@ -28,71 +37,85 @@
         komunikasi yang baik, dapat bekerja dengan cepat dan efisien, serta selalu
         bertanggung jawab dalam segala tugas. 
     </p>
-    </section>
+  </section>
 
-    <section class="section">
-      <h2>Data Pribadi</h2>
-      <ul class="data-list">
-      <li>
-        <img src="../PROFILMAYA/icon2.jpeg" alt="Icon Tanggal Lahir" class="icon">
-        <strong>Tempat, Tanggal Lahir:</strong> Ponorogo, 24 Maret 2008
+  <section  class="mb-6">
+    <hr class="border-t border-blue-500 w-25 mx-auto my-6">
+    <h2 class="text-xl font-bold mb-4">Data Pribadi</h2>
+    <ul class="space-y-6">
+      <li class="flex items-center gap-4">
+        <img src="../PROFILMAYA/icon2.jpeg" alt="Icon Tanggal Lahir" class="w-20 h-20 rounded-full object-cover">
+        <div>
+          <p><strong>Tempat, Tanggal Lahir:</strong> Ponorogo, 24 Maret 2008</p>
+        </div>
       </li>
-      <li>
-        <img src="../PROFILMAYA/icon3.png" alt="Icon Alamat" class="icon">
-        <strong>Alamat:</strong> Desa Purwosari, Kecamatan Babadan, Kabupaten Ponorogo
+      <li class="flex items-center gap-4">
+        <img src="../PROFILMAYA/icon3.png" alt="Icon Alamat" class="w-20 h-20 rounded-full object-cover">
+        <div>
+          <p><strong>Alamat:</strong> Desa Purwosari, Kecamatan Babadan, Kabupaten Ponorogo</p>
+        </div>
       </li>
-      <li>
-        <img src="../PROFILMAYA/icon0.png" alt="Icon Email" class="icon">
-        <strong>Email:</strong> mayaas8550@gmail.com
+      <li class="flex items-center gap-4">
+        <img src="../PROFILMAYA/icon0.png" alt="Icon Email" class="w-20 h-20 rounded-full object-cover">
+        <div>
+          <p><strong>Email:</strong> mayaas8550@gmail.com</p>
+        </div>
       </li>
-      </ul>
-    </section>
-
-    <section class="section">
-      <h2>Pendidikan</h2>
-      <ul class="data-skl">
-        <li>
-         <img src="../PROFILMAYA/icon6.jpeg" alt="Icon Sekolah" class="icon">
+    </ul>
+  </section>
+  
+    <section class="mb-6">
+      <h2 class="text-xl font-bold mb-2">Pendidikan</h2>
+      <ul class=" list-disc pl-5 space-y-1">
+        <li class="flex items-center gap-4">
+         <img src="../PROFILMAYA/icon6.jpeg" alt="Icon Sekolah" class="w-20 h-20 rounded-full object-cover">
          <strong>Sekolah:</strong> SMK Negeri 1 Jenangan Ponorogo | 2023-Sekarang(Belum Lulus)</li>
       </ul>
     </section>
 
-    <section class="section">
-      <h2>Pengalaman Lomba</h2>
-      <ul>
-        <li>PMR Galapalmera 2023 bidang Duta Persahabatan - SMA 1 Ponorogo</li>
+    <section class="mb-6">
+      <hr class="border-t border-blue-500 w-25 mx-auto my-6">
+      <h2 class="text-xl font-bold mb-2">Pengalaman Lomba</h2>
+      <ul class="list-disc pl-5 space-y-2">
+        <li>PMR Galapalmera 2023 bidang Duta Persahabatan - SMAN 1 Ponorogo</li>
         <li>Film Pramuka - Universitas Negeri Malang</li>
         <li>Festival Reog Nasional (Grebeg Suro) 2022,2023,2024,2025 - Ponorogo</li>
       </ul>
     </section>
 
-    <section class="section">
-      <h2>Keahlian & Proyek</h2>
+    <section class="mb-6">
+      <hr class="border-t border-blue-500 w-25 mx-auto my-6">
+      <h2 class="text-xl font-bold mb-2">Keahlian & Proyek</h2>
       <p><strong>Bahasa Pemrograman:</strong> HTML, CSS, Java, PHP, Python</p>
       <p><strong>Database:</strong> MySQL, PostgreSQL</p>
       <p><strong>Proyek Kecil:</strong></p>
-      <ul>
+      <ul class="list-disc pl-5 mb-2">
         <li>Kalkulator</li>
         <li>Program Kasir</li>
         <li>Login & Register Buku</li>
       </ul>
     </section>
     
-    <h2>Hubungi Saya</h2>
+    <section class="text-center">
+      <h2 class="text-xl font-semibold mb-2">Hubungi Saya</h2>
+      <button onclick="kirimWA()" 
+      class="group relative overflow-hidden bg-green-500 hover:bg-green-600 text-white px-6 py-3 rounded-full shadow-lg transition duration-300 ease-in-out inline-flex items-center gap-3 hover:scale-105">
+      <span class="absolute inset-0 bg-green-700 opacity-0 group-hover:opacity-20 transition"></span>
+      <img src="../PROFILMAYA/icon7.png" alt="WhatsApp" class="w-6 h-6 animate-pulse"> 
+      <span class="font-semibold">Kirim Pesan via WhatsApp</span>
+    </button>
+    </section>
 
-    <button class="wa-button" onclick="kirimWA()">
-    <img src="../PROFILMAYA/icon7.png" alt="WhatsApp">Hubungi WhatsApp Saya</button>
 
-  <script>
-    function kirimWA() {
-      let nomor = '62895401332329'; // Ganti dengan nomor tujuan
-      let pesan = 'Halo, saya ingin bertanya tentang produk Anda.';
-      let url = 'https://wa.me/' + nomor + '?text=' + encodeURIComponent(pesan);
-      window.open(url, '_blank'); // Buka di tab baru
-    }
-  </script>
+    <script>
+      function kirimWA() {
+        let nomor = '62895401332329';
+        let pesan = 'Halo, saya ingin bertanya tentang produk Anda.';
+        let url = 'https://wa.me/' + nomor + '?text=' + encodeURIComponent(pesan);
+        window.open(url, '_blank');
+      }
+    </script>
     
-
   </div>
 </body>
 </html>
