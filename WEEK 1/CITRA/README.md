@@ -104,4 +104,9 @@
 
 15. Jum'at, 11 Juli 2025
     mempelajari :
+
     - Menambahkan button yang berisi tautan menuju nomor WhatsApp saya pada file profil2.html atau file CV yang kemarin.
+
+16. Senin, 14 Juli 2025
+   mempelajari :
+   - 

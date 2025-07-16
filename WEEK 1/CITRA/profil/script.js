@@ -1,10 +1,11 @@
 document.addEventListener("DOMContentLoaded", function () {
-  const nomorElement = document.querySelector(".nomer");
-  const nomorWa = "6289524085435"; 
+  const whatsappBtn = document.getElementById("whatsappBtn");
 
-  nomorElement.innerHTML = `
-    <a href="https://wa.me/${nomorWa}" target="_blank">
-      +62 895-2408-5435
-    </a>
-  `;
+  whatsappBtn.addEventListener("click", function (e) {
+    e.preventDefault();
+    const phone = "6289524085435";
+    const message = encodeURIComponent("Hai Selamat datang, perkenalkan saya Citra");
+    const url = `https://wa.me/${phone}?text=${message}`;
+    window.open(url, "_blank");
+  });
 });
