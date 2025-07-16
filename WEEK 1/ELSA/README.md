@@ -88,3 +88,10 @@ Mempelajari :
 15. Jum'at, 11 Juli 2025
 Mempelajari :
 - Menambahkann button yang berisi tautan menuju WhatsApp saya difile profil.html kemarin
+
+16. Senin, 14 Juli 2025
+- Mempelajari & Mempratekkan Latihan Tailwind CSS
+
+17. Selasa, 15 Juli 2025
+- Merubah & Menambahkan Tailwind pada CV 
+

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  
+  <title>Profil Lanarizha</title>
+
+</head>
+<body>
+  <div class="p-20">
+    <div class="header">
+      <div class="flex items-end gap-4">
+            <img
+             src="fotocandy.jpg"
+             alt="Foto Profil"
+             class="size-50 h-60 rounded object-cover"
+             />
+      
+      <div class="info">
+        <h1 class="font-medium text-gray-900 sm:text-lg">Lanarizha Sandhya Mufti</h1>
+        <p class="mt-0.5 text-gray-700 w-100">
+          Saya adalah pelajar di SMK Negeri 1 Jenangan jurusan <span class="jurusan">Rekayasa Perangkat Lunak (RPL)</span>,
+          yang saat ini sedang menjalani Praktik Kerja Lapangan di CV.Edusupe. Saya memiliki semangat tinggi untuk belajar dan berkembang,
+          khususnya di pengembangan aplikasi. Meski masih dalam tahap awal PkL, saya siap menerima tantangan dan bertanggung jawab atas tugas yang diberikan.
+        </p>
+      </div>
+    </div>
+    </div>
+
+
+    <h2>📌 Informasi Kontak</h2>
+    <p>
+      <img src="email.jpg" height="35" width="35" alt="Email Icon" style="vertical-align: middle;">
+      lanarizha.sandhya41@smk.belajar.id
+    </p>
+    <p>
+      <img src="telpon.png" height="35" width="35" alt="Telepon Icon" style="vertical-align: middle;">
+      085776602241
+    </p>
+
+    <div class="button-wa">
+    <a href="#" id="wa-button">Hubungi kami</a>
+      <script>
+        let waButton = document.getElementById('wa-button');
+        let phoneNumber = '+6285776602241';
+        let message = 'Halo, saya ingin bertanya tentang mu.';
+
+        waButton.href = `https://wa.me/${+6285776602241}?text=${encodeURIComponent(message)}`;
+        waButton.target = '_blank';
+      </script>
+    </div>
+
+    <h2>🎓 Pendidikan</h2>
+    <ul>
+      <li><b>Sekolah Menengah Kejuruan:</b> SMKN 1 Jenangan | 2023–sekarang (Belum Lulus)</li>
+    </ul>
+    
+    <h2>👜 Pengalaman</h2>
+    <ul>
+      <li>
+        <b>Praktik Kerja Lapangan (PKL)</b>
+        <ul>
+          <li>Tempat: CV.Edusupe, Madiun</li>
+          <li>Periode: Juni s/d November 2025</li>
+          <li>Tugas: Latihan membuat halaman multipage</li>
+        </ul>
+      </li>
+      <li>
+        <b>Proyek Sekolah</b>
+        <ul>
+          <li>Aplikasi Kasir Sederhana</li>
+          <li>Project web sederhana <span class="bahasa">(HTML, Bootstrap)</span></li>
+          <li>Membuat aplikasi buku sederhana di Android Studio</li>
+        </ul>
+      </li>
+    </ul>
+
+    <h2>🧠 Kemampuan</h2>
+    <ul>
+      <li>Mampu mengoperasikan perangkat komputer atau laptop dengan baik</li>
+      <li>Terampil menggunakan Studio Code untuk menulis, mengedit, dan menjalankan kode program</li>
+      <li>Memahami dasar-dasar pemrograman <span class="bahasa"> CSS, JavaScript, dan PHP</span></li>
+      <li>Terbiasa membuat dan mengelola proyek sederhana berbasis website</li>
+    </ul>
+  </div>
+  
+</body>
+</html>

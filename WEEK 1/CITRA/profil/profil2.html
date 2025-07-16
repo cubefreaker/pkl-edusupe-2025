@@ -1,55 +1,92 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 " />
     <title>Profil Diri</title>
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body>
-    <div class="a4-wrapper">
-      <div class="konten">
-        <div class="container">
-          <div class="kiri">
-            <h1>
-              <img src="image/foto1.jpeg" class="lingkaran" alt="Foto Profil" />
-            </h1>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <style type="text/tailwindcss">
+      .subjudul {
+        @apply text-lg font-semibold mt-6;
+      }
 
-            <div class="tabel">
-              <h3>DATA PRIBADI</h3>
-              <hr width="130px" align="left" />
+      .garis {
+        @apply border-b-2 border-gray-300 w-3/4 mb-3;
+      }
+
+      .ulu {
+        @apply list-disc pl-5 text-base;
+      }
+
+      .kiri-table td {
+        @apply align-top pr-2 py-1 text-base;
+      }
+    </style>
+
+    <style>
+      .a4 {
+        width: 210mm;
+        height: 297mm;
+      }
+
+      @media (max-width: 800px) {
+        .a4 {
+          transform: scale(0.5);
+          transform-origin: top center;
+        }
+      }
+
+      @media print {
+        body {
+          background: white;
+          margin: 0;
+        }
+
+        .a4 {
+          transform: scale(1);
+          box-shadow: none;
+          margin: 0;
+        }
+      }
+    </style>
+  </head>
+  <body
+    class="bg-neutral-200 flex items-center justify-center min-h-screen p-6"
+  >
+    <div class="a4 shadow-xl rounded-lg overflow-hidden bg-white mx-auto">
+      <div class="bg-slate-50 flex gap-6 h-full">
+        <div class="flex gap-5">
+          <!-- kiri -->
+          <div
+            class="w-2/5 bg-gray-800 text-white text-base p-4 flex flex-col items-center"
+          >
+            <img
+              src="image/foto1.jpeg"
+              alt="Foto Profil"
+              class="w-40 h-40 mt-3 object-cover rounded-full shadow-md"
+            />
+
+            <div class="mt-10">
+              <h3 class="subjudul">DATA PRIBADI</h3>
+              <hr class="garis" />
               <br />
-              <table border="0">
-                <tr>
-                  <td>
-                    <img src="icon/icon_pp.png" height="20px" width="20px" />
-                  </td>
+              <table class="kiri-table mt-2">
+                <tr class="align-top">
                   <td>Nama</td>
                   <td>:</td>
                   <td>Citra Amellia Maharani</td>
                 </tr>
-                <tr>
-                  <td>
-                    <img src="icon/icon_ttl.png" height="20px" width="20px" />
-                  </td>
+                <tr class="align-top">
                   <td>Tempat, Tanggal Lahir</td>
                   <td>:</td>
                   <td>Ponorogo, 11 Juni 2008</td>
                 </tr>
-                <tr>
-                  <td>
-                    <img
-                      src="icon/icon_alamat.png"
-                      height="20px"
-                      width="20px"
-                    />
-                  </td>
+                <tr class="align-top">
                   <td>Alamat</td>
                   <td>:</td>
                   <td>Desa Ngrupit, Kecamatan Jenangan, Kabupaten Ponorogo</td>
                 </tr>
-                <tr>
-                  <td>
-                    <img src="icon/icon_email.png" height="20px" width="20px" />
-                  </td>
+                <tr class="align-top">
                   <td>Email</td>
                   <td>:</td>
                   <td>citraamellia43@gmail.com</td>
@@ -57,32 +94,38 @@
               </table>
 
               <h3 class="subjudul">PENDIDIKAN</h3>
-              <hr width="130px" align="left" />
-              <p>
+              <hr class="garis" />
+              <p class="mb-12">
                 SMK NEGERI 1 JENANGAN <br />
                 (REKAYASA PERANGKAT LUNAK)
               </p>
 
               <h3 class="subjudul">Nomer Telepon</h3>
-              <hr width="130px" align="left" />
-
+              <hr class="garis" />
               <a
-                href="https://wa.me/6289524085435"
-                target="_blank"
-                class="wa-button"
+                id="whatsappBtn"
+                href="#"
+                class="bg-blue-600 p-1 rounded-lg hover:bg-pink-300"
               >
                 Hubungi via WhatsApp
               </a>
-              <p>*Klik tombol untuk menghubungi saya</p>
+              <p class="mt-5">*Klik tombol untuk menghubungi saya</p>
             </div>
           </div>
 
-          <div class="kanan">
-            <p class="judul">Curiculum Vitae</p>
-            <p class="name">Citra Amellia Maharani</p>
-            <h3>TENTANG SAYA</h3>
-            <hr width="130px" align="left" />
-            <p>
+          <!-- kanan -->
+          <div
+            class="w-[60%] text-gray-900 overflow-y-auto flex flex-col justify-start"
+          >
+            <p class="font-bold text-5xl mt-10">Curiculum Vitae</p>
+            <p class="text-xl pb-5 pt-5 font-mono">Citra Amellia Maharani</p>
+            <h3
+              class="font-semibold mt-22 mb-3 bg-gray-700 text-white w-70 rounded-lg px-4"
+            >
+              TENTANG SAYA
+            </h3>
+            <hr class="garis" />
+            <p class="text-base">
               Saya adalah Siswa SMK jurusan Rekayasa Perangkat Lunak atau RPL
               yang berminat dalam pengembangan perangkat lunak dan teknologi
               informasi. Saya berminat Praktik Kerja Lapangan atau PKL di CV
@@ -93,9 +136,13 @@
               dalam segala tugas.
             </p>
             <div>
-              <h3>Pengalaman Lomba</h3>
-              <hr width="175px" align="left" />
-              <ul>
+              <h3
+                class="font-semibold mt-7 mb-3 bg-gray-700 text-white w-70 rounded-lg px-4"
+              >
+                PENGALAMAN LOMBA
+              </h3>
+              <hr class="garis" />
+              <ul class="ulu">
                 <li>
                   PMR Galapalmera 2023 bidang Presentasi Donor Darah di SMA 1
                   Ponorogo
@@ -110,15 +157,19 @@
                 </li>
               </ul>
 
-              <h3>Keahlian dan Kompetensi</h3>
-              <hr width="175px" align="left" />
+              <h3
+                class="font-semibold mt-7 mb-3 bg-gray-700 text-white w-70 rounded-lg px-4"
+              >
+                KEAHLIAN DAN KOMPETENSI
+              </h3>
+              <hr class="garis" />
               <p>Hard Skils</p>
-              <ul>
+              <ul class="ulu p-3">
                 <li>Pemrograman : HTML, PHP, Java, CSS, Python</li>
                 <li>Database : MySQL, PostgreSQL</li>
               </ul>
               <p>Contoh Projek Kecil :</p>
-              <ul>
+              <ul class="ulu p-3">
                 <li>Kalkulator</li>
                 <li>Program Kasir</li>
                 <li>Login Register Buku</li>
@@ -128,5 +179,6 @@
         </div>
       </div>
     </div>
+    <script src="script.js"></script>
   </body>
 </html>
