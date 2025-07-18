@@ -4,4 +4,4 @@ document.getElementById ("bukaWhatsAppp").addEventListener("click", function() {
     const encodedMessage = encodeURIComponent(message);
     const waUrl = `https://wa.me/${phoneNumber}?text=${encodedMessage}`;
     window.open(waUrl, '_blank');
-  });
+  }); 

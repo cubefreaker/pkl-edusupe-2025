@@ -85,4 +85,18 @@ t (Relative, absolute, fixed, sticky posisition, Z-index float dan latihan multi
 
  15. Jumat, 11 Juli
  - 
- ()
+
+ 16. Senin, 14 Juli 2025
+ - mempelajari tailwind css
+
+ 17. Selasa, 15 Juli 2025
+ - merubah/memperindah CV menggunakan tailwind css
+
+ 18. rabu, 16 Juli 2025
+ - merubah/memperindah CV menggunakan tailwind css
+
+ 19. kamis, 17 juli 2025
+ - LIBUR
+
+ 20. Jumat, 18 Juli 2025
+ 
